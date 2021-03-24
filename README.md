@@ -1,5 +1,3 @@
-# How-to-automate-a-Telegram-Bot-with-Python
-This is a tutorial for those who want to create a Telegram-Bot with Python
 <h1>How to automate a Telegram-Bot with Python</h1>
 
 Hello guys 👋, today we are going to automate a Telegram-Bot with Python. Before starting the tutorial you must have installed ```Python``` in your computer. Python can be installed through the [offical website of Python](https://python.org)
