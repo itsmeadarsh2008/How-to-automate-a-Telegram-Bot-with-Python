@@ -77,5 +77,6 @@ You can clone this repository by typing this command in your prefered terminal o
 ```
 git clone https://github.com/adarsh4u218/How-to-automate-a-Telegram-Bot-with-Python
 ```
+This repository is created under ```GPL 3.0 LICENSE```
 
 
