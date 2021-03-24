@@ -11,8 +11,7 @@ pip install python-telegram-bot
 So, let's start tutorial with ease. First install an IDE(Integrated Development Environment), use **IDLE** for beginners to Python. know the basics of Python before learning the tutorial. 
 
 **i)** First of all, create a file named ```config.py``` in your IDE. Then, write the following code below.
-The ```str``` TOKEN is to replaced by the token gave by [@botfather]()
-
+The ```str``` TOKEN is to replaced by the token gave by [@botfather](https://t.me/BotFather). Learn the API and read the documentation of Telegram-Bot [](https://core.telegram.org/bots)
 ```
 bot_token = "TOKEN"
 ```
@@ -36,7 +35,7 @@ def start_command(update,context): #add arguments named 'update' & 'context'
     context.bot.send_message(chat_id=update.message.chat.id,text="Hello World!") 
     #update.message.chat.id is used to get chat id of upcoming message
 ```
-**iv)** Last step, add another function called ```main()``` which handles the *Telegram-Bot* and run it by adding the  last statement of ```if``` which can run ```main()```. Now, your bot is ready to 
+**iv)** Last step, add another function called ```main()``` which handles the *Telegram-Bot* and run it by adding the  last statement of ```if``` which can run ```main()```. Now, your bot is ready to respond.
 ```python
 def main():
     updater = Updater(token=bot_token) # handles control of bot
@@ -72,6 +71,9 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+Yon can learn more methods on ```python-telegram-bot``` by reading the docs [CLICK HERE](https://python-telegram-bot.readthedocs.io/en/stable/)
+
+
 You can clone this repository by typing this command in your prefered terminal or CLI. Before cloning repository, Install the git. Git can be install from [offical website of Git]( http://git-scm.com/)
 
 ```
